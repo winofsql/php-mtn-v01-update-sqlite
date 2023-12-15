@@ -31,7 +31,7 @@
         <input type="submit" name="btn" id="btn" class="btn btn-primary ms-4" value="確認">
     </div>
 
-        <div>
+    <div>
         <div class="entry left">氏名
         </div>
         <div class="entry right">
