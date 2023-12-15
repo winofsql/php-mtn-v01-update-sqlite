@@ -28,4 +28,6 @@ $stmt = $sqlite->prepare("select * from 社員マスタ where 社員コード = 
 - ### update のみ
 - ### JavaScript 処理なし
 - ### HTML による入力チェックなし
-- ### フィールドサイズは全て未指定
+- ### フィールドサイズの個別指定なし
+```css
+``` 
