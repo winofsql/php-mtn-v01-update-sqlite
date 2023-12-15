@@ -18,3 +18,5 @@ catch ( PDOException $e ) {
 // 接続以降で try ～ catch を有効にする設定
 $sqlite->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ```
+
+### SQLに対する入力値の埋め込みは、文字列埋め込み( bind は使用していない )
