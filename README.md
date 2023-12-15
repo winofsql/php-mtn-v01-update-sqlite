@@ -19,4 +19,6 @@ catch ( PDOException $e ) {
 $sqlite->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ```
 
-### SQLに対する入力値の埋め込みは、文字列埋め込み( bind は使用していない )
+- ### SQLに対する入力値の埋め込みは、文字列埋め込み( bind は使用していない )
+- ### model.php を使用せずに syain.php に処理を記述
+
