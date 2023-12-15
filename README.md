@@ -26,3 +26,6 @@ $stmt = $sqlite->prepare("select * from 社員マスタ where 社員コード = 
 
 - ### model.php を使用せずに syain.php に処理を記述
 - ### update のみ
+- ### JavaScript 処理なし
+- ### HTML による入力チェックなし
+- ### フィールドサイズは全て未指定
