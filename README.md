@@ -33,4 +33,17 @@ $stmt = $sqlite->prepare("select * from 社員マスタ where 社員コード = 
 .right {
     width: 300px;
 }
-``` 
+```
+```html
+<div>
+    <div class="entry left">氏名
+    </div>
+    <div class="entry right">
+        <input class="form-control"
+            type="text"
+            name="sname"
+            id="sname"
+            value="<?= $_POST["sname"] ?>">
+    </div>
+</div>
+```
