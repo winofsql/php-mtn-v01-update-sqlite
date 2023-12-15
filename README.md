@@ -47,3 +47,13 @@ $stmt = $sqlite->prepare("select * from 社員マスタ where 社員コード = 
     </div>
 </div>
 ```
+- ### フィールド名
+    - scode
+    - sname
+    - fname
+    - syozoku
+    - seibetsu
+    - kyuyo
+    - teate
+    - kanri
+    - birth
