@@ -1,6 +1,16 @@
 # php-mtn-v01-update-sqlite
 
 ![image](https://user-images.githubusercontent.com/1501327/157995686-217429dc-4451-4272-a44e-783d590f7844.png)
+- ### フィールド名
+    - scode
+    - sname
+    - fname
+    - syozoku
+    - seibetsu
+    - kyuyo
+    - teate
+    - kanri
+    - birth
 
 ### db_connect.php
 ```php 
@@ -47,13 +57,3 @@ $stmt = $sqlite->prepare("select * from 社員マスタ where 社員コード = 
     </div>
 </div>
 ```
-- ### フィールド名
-    - scode
-    - sname
-    - fname
-    - syozoku
-    - seibetsu
-    - kyuyo
-    - teate
-    - kanri
-    - birth
